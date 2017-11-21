@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>kenniy css website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="topnav-right"><a href="#signup">Sign In</a></li>
+      <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+
+            </ul>
+    </nav>
+      
+      <div class="container" id="section-1-gradiant">
+          <div class="row">
+               <div class="col-6">
+                   <div class="leftside-col">
+                    <h1 class="large">Naruto Awesome</h1>
+                    <h1 class="large">Made by Kenniy</h1>
+                   </div>
+               <form>
+                  <div class="leftside-col">
+                      <h2>Username</h2>
+                      <input class="inputbox" name="Username" type="text" placeholder="Username">
+                      <h2>Password</h2>
+                      <input class="inputbox" name="Password" type="text" placeholder="Password">
+                  </div>
+               </form>
+              </div>
+                <div class="col-6">
+                   <div class="rightside-col">
+                       <div class="videocontainer">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/xgP-I7OOv2Q" frameborder="0" allowfullscreen></iframe>
+                       </div>
+                   </div>
+              </div>
+             </div>
+           </div>
+    <header>
+           <h1 class="section2header">The Kenniy Awesomeness</h1>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+           <div class="box">
+              <div class="icon">
+                  <img src="kenniy.png" height="100">
+              </div>
+               <label>Chat with Me</label>
+               <p>To get the latest update on <b>Naruto Ultimate Ninja Storm</b> chat up with us<br>To get the latest update on  </p>                   
+           </div>
+        </div>
+          <div class="col-4">
+           <div class="box">
+              <div class="icon">
+                  <img src="kenniy.png" height="100">
+              </div>
+               <label>Learn about Naruto</label>
+               <p>To get the latest update on <b>Naruto Ultimate Ninja Storm</b> learn about different character and so much more<br>To get the latest update on</p>                   
+           </div>
+        </div>
+          <div class="col-4">
+           <div class="box">
+              <div class="icon">
+                  <img src="kenniy.png" height="100">
+              </div>
+               <label>Build your Own Anime</label>
+               <p>To get the latest update on <b>Naruto Ultimate Ninja Storm</b> so we can collabo minds together<br>To get the latest update on <b>Naruto Ultimate Ninja Storm</b> 
+               </p>                   
+           </div>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnmore">Learn More</button>
+            </div>
+        </div>
+    </div>
+      <hr>
+      <div class="container">
+          <div class="row">
+          <div class="col-7">
+              <article>
+                  <p>Twelve years before the start of the series, the Nine-Tails attacked Konohagakure, destroying much of the village and taking many lives. The leader of the village, the Fourth Hokage sacrificed his life to seal the Nine-Tails into a newborn, Naruto Uzumaki. Orphaned by the attack, Naruto was shunned by the villagers, who out of fear and anger, viewed him as the Nine-Tails itself. Though the Third Hokage outlawed speaking about anything related to the Nine-Tails, the children — taking their cues from their parents — inherited the same animosity towards Naruto. In his thirst to be acknowledged, Naruto vowed he would one day become the greatest Hokage the village had ever seen</p>
+              </article>
+          </div>
+           <div class="col-5">
+              <div class="Icon">
+                  <img src="Kyuubi_attack_on_Konoha.png" width="70%" height="100%">
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <footer class="footsy">
+          <div class="row">
+              <div class="col-3 mobilestack">
+                  <h1>Company</h1>
+                  <ul>
+                      <li>About</li>
+                      <li>Blogs</li>
+                      <li>Careers</li>
+                  </ul>
+              </div>
+              <div class="col-3 mobilestack">
+                  <h1>Company</h1>
+                  <ul>
+                      <li>About</li>
+                      <li>Blogs</li>
+                      <li>Careers</li>
+                  </ul>
+              </div>
+              <div class="col-3 mobilestack">
+                  <h1>Company</h1>
+                  <ul>
+                      <li>About</li>
+                      <li>Blogs</li>
+                      <li>Careers</li>
+                  </ul>
+              </div>
+              <div class="col-3 mobilestack">
+                  <h1>Company</h1>
+                  <ul>
+                      <li>About</li>
+                      <li>Blogs</li>
+                      <li>Careers</li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+      
+      <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        /*change topnav to topnav.responsive*/
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  </body>
+</html>
